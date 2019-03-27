@@ -1,4 +1,4 @@
-ass Solution(object):
+class Solution(object):
     def topKFrequent(self, words, k):
         count = collections.Counter(words)
         candidates = count.keys()
